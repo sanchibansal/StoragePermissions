@@ -1,0 +1,28 @@
+a) What is the difference between Internal Stroage and External Storage?
+
+Internal memory is the memory available to us for installing our applications (the operating system ones) and data. 
+Applications are installed in this storage and our personal data such as text messages, contact lists, our email settings 
+are stored on this. This is considered to be quite sensitive information and this is not accessible to us.
+
+Whereas external memory is the external storage capacity of our phone which is accessible to us. It is the storage which can be 
+removed easily by us (our memory card) and can be used for storing pictures, music, videos. 
+
+In terms of security, Internal memory is more secure because anyone can remove our external storage and can access its files which is not possible 
+in case of internal storage.
+In terms of reliability, when an app is uninstalled, its app data stored in Internal Storage is lost, whereas, if the data is stored in 
+external storage, it is not lost when the app is uninstalled.
+--------------------------------------------------------------------------------------------------------------------------
+
+b) For how long the data resides in the cache?
+As long as the user doesn't clear cache or the device doesn't run out of memory cached data resides inside the phone or internal memory.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+c) What are the critical permissions and Normal permissions? What are the examples of each?
+If an app declares in its manifest that it needs a normal permission, the system automatically grants the app that
+permission at install time. The system does not prompt the user to grant normal permissions, and users cannot revoke 
+these permissions.
+Examples Check and change data connection: Include network state, Wi-Fi State, Bluetooth, Internet, etc.
+
+Whereas in case of critical permissions the system prompts the user to grant these permissions at run time.
+Example for accessing locations in Ola or Uber app.
